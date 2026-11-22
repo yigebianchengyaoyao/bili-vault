@@ -1,0 +1,3 @@
+declare global { interface Window { bili: { inspect(data:{url:string;browser:string;cookieFile?:string}):void; download(data:any):void; cancel():void; pickFolder():Promise<string|null>; pickCookieFile():Promise<string|null>; openFolder(folder:string):void; getState():Promise<{queue:any[];history:any[]}>; saveHistory(item:any):void; setQueue(items:any[]):void; onLine(fn:(data:any)=>void):void; onDone(fn:(data:any)=>void):void; login():Promise<{opened:boolean}>; logout():Promise<{loggedIn:boolean}>; loginStatus():Promise<any>; updateYtdlp():Promise<{ok:boolean;message:string}>; onLogin(fn:(data:any)=>void):void; onError(fn:(data:any)=>void):void } } }
+declare module '*.css';
+export {};

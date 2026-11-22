@@ -1,0 +1,8 @@
+node_modules/
+dist/
+release/
+.env
+*.log
+tools/ffmpeg-extract/
+tools/ffmpeg.zip
+tools/ffmpeg.exe
