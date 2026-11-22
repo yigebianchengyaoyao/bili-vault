@@ -1,7 +1,7 @@
 {
   "project": "BiliVault",
   "updatedAt": "2026-11-22",
-  "status": "0.2.3-login-and-timeout-fixed",
+  "status": "0.2.3-packaged-and-verified",
   "requirements": [
     "Windows 图形界面",
     "B站链接识别",
@@ -47,7 +47,9 @@
     "10项单元回归通过",
     "TypeScript与Vite构建通过",
     "真实1080P下载合并成功(实测)",
-    "yt-dlp识别4K锁定提示复现(实测)"
+    "yt-dlp识别4K锁定提示复现(实测)",
+    "打包产物163MB且resources/tools含双内核(实测)",
+    "打包版窗口冒烟测试PASS(实测)"
   ],
   "knownIssues": [
     "尚未用真实大会员账号完成4K端到端下载回归(需用户扫码)",
