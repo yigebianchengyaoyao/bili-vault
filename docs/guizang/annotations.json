@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "BiliVault：把 4K 从「下不了」修到「能下」",
+    "author": "lead",
+    "date": "2026.11.24",
+    "reading_time": "约 5 分钟",
+    "tags": [
+      "桌面工具",
+      "故障排查",
+      "Electron",
+      "B 站"
+    ],
+    "subtitle": "一个「下载失败」的报障里，同时藏着权限问题和超时问题",
+    "theme": "indigo-porcelain"
+  },
+  "upgrades": [
+    {
+      "type": "pullquote",
+      "line": 5,
+      "accent": "身份"
+    },
+    {
+      "type": "def-card",
+      "lines": [
+        15
+      ]
+    },
+    {
+      "type": "process",
+      "lines": [
+        23,
+        24,
+        25
+      ],
+      "items": [
+        {
+          "title": "识别",
+          "desc": "无输出 60 秒后终止，链接失效也不无限等"
+        },
+        {
+          "title": "下载",
+          "desc": "无输出 180 秒后终止，容得下大文件与慢分片"
+        },
+        {
+          "title": "清理",
+          "desc": "taskkill /T /F 连子进程一起收尾"
+        }
+      ]
+    },
+    {
+      "type": "def-card",
+      "lines": [
+        37
+      ]
+    },
+    {
+      "type": "process",
+      "lines": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "items": [
+        {
+          "title": "扫码",
+          "desc": "打开 B 站官方登录页"
+        },
+        {
+          "title": "取凭证",
+          "desc": "出现 SESSDATA 即落盘"
+        },
+        {
+          "title": "校验",
+          "desc": "nav 接口回显昵称与大会员"
+        },
+        {
+          "title": "复用",
+          "desc": "识别与下载默认带 Cookie"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "lines": [
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "type": "def-card",
+      "lines": [
+        58
+      ]
+    }
+  ]
+}
