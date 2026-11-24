@@ -43,6 +43,9 @@
     "下载被60秒超时杀死",
     "Chrome/Edge DPAPI解密失败导致无4K"
   ],
+  "works": [
+    "归藏设计作品 489168ba：docs/guizang/bilivault.html（杂志风 indigo-porcelain 修复记）"
+  ],
   "verification": [
     "10项单元回归通过",
     "TypeScript与Vite构建通过",
